@@ -12,7 +12,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
    generateComputerChoice()
    getresult()
 }))
- 
+
 function generateComputerChoice() {
    const randomNumber = Math.floor(Math.random() * 3)
 
@@ -27,7 +27,6 @@ function generateComputerChoice() {
    }
    computerChoiceDisplay.innerHTML = ComputerChoice
 }
-
 function getresult(){
    {
    if(ComputerChoice === userChoice)
