@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
 </head>
 <body>
-    <h1>ROCK PAPER SCISSORS GAME</h1>
-    <h2>PICK YOUR WEAPON</h2>
-    <p>First to hit 5 points wins</p>
-    <div class="weapon"> ⛰️  📜  ✂️ </div>
-    <div class="scoreboard">
-        <div class="playerscore">PlayerScore</div>
-        <div class="computerScore">ComputerScore</div>
-    </div>
-    <div class="figure"></div>
-    <div class="result">WINNER !!!</div>
+    <header>
+        <h1>ROCK PAPER SCISSORS GAME</h1>
+        <h2>PICK YOUR WEAPON</h2>
+        <button id="rock">⛰️</button>
+        <button id="paper">📜</button>
+        <button id="scissors">✂️</button>
+    
+    </header>
+<div class="scoreboard">
+    <h2>Computer Choice 💻: <span id="computer-choice"></span></h2>
+    <h2>User Choice 🤵: <span id="user-choice"></span></h2>
+    
+    <h2><span id="result"></span></h2>
+</div>
+
 
     <script src="rps.js"></script>
 </body>
